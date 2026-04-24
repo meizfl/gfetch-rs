@@ -57,3 +57,17 @@ jobs:
 
       - name: Run tests
         run: cargo run
+
+      - name: Upload binary (Linux/macOS)
+        if: matrix.os != 'windows-latest'
+        uses: actions/upload-artifact@v4
+        with:
+          name: gfetch-${{ matrix.os }}
+          path: target/debug/gfetch-rs
+
+      - name: Upload binary (Windows)
+        if: matrix.os == 'windows-latest'
+        uses: actions/upload-artifact@v4
+        with:
+          name: gfetch-${{ matrix.os }}
+          path: target/debug/gfetch-rs.exe
