@@ -21,8 +21,11 @@ jobs:
           libxcb-randr0-dev \
           libxcb-xfixes0-dev \
           libx11-dev \
+          libwayland-dev \
+          libwayland-client0 \
+          pkg-config \
           xvfb
-
+          
     - name: Build
       run: |
         export DISPLAY=:99
