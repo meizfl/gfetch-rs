@@ -24,6 +24,7 @@ jobs:
           libwayland-dev \
           libpipewire-0.3-dev \
           libspa-0.2-dev \
+          libegl1-mesa-dev \
           pkg-config \
           xvfb
           
