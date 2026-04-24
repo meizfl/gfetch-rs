@@ -3,16 +3,16 @@
 A lightweight, fast system information fetch tool written in Rust — inspired by neofetch, but minimal and blazing fast.
 
 ```
-    (\(\       meizfl@pc.meizfl.pp.ua
+    (\(\       runner@runnervmeorf1
    j". ..      -----------
-   (  . .)     os: openSUSE Tumbleweed 7.0.0-6.g11c9579-default (x86_64)
-   |   ° ¡     shell: /usr/bin/zsh
-   ¿     ;     uptime: 3d 4h 36m
-   c?".UJ      ram: 11120/32010 MiB
-               cpu: AMD Ryzen 7 3700X 8-Core Processor
-               resolution: 1920x1080
+   (  . .)     os: Ubuntu 6.17.0-1010-azure (x86_64)
+   |   ° ¡     shell: /bin/bash
+   ¿     ;     uptime: 1m
+   c?".UJ      ram: 1073/15989 MiB
+               cpu: AMD EPYC 9V74 80-Core Processor
+               resolution: N/A
                fs: ext4
-               storage: 326 / 466 GB
+               storage: 57 / 144 GB
 ```
 
 ## Features
